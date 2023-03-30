@@ -18,10 +18,10 @@ const Downloads = () =>{
                   <h4 className="new_title_bold">closed beta now!</h4>
                   <h2 className="download-now">Download Now : </h2>
                   <div className="download-btn-wrap">
-                    <a target="_blank" rel="noreferrer" href="https://play.katanainu.com/">
+                    <a target="_blank" rel="noreferrer" href="https://launcher.katanainu.com/">
                       <img src="assets/img/images/download_btn.png" alt="" />
                     </a>
-                    <a target="_blank" rel="noreferrer" href="https://play.katanainu.com/">
+                    <a target="_blank" rel="noreferrer" href="https://launcher.katanainu.com/">
                       <img src="assets/img/images/play.png" alt="" />
                     </a>
                     {/* <span>OR</span>
@@ -170,10 +170,10 @@ const Downloads = () =>{
                 <div className="newplay_area mt-50">
                   <h2 className="download-now">Download Now : </h2>
                   <div className="download-btn-wrap">
-                    <a target="_blank" rel="noreferrer" href="https://play.katanainu.com/">
+                    <a target="_blank" rel="noreferrer" href="https://launcher.katanainu.com/">
                       <img src="assets/img/images/download_btn.png" alt="" />
                     </a>
-                    <a target="_blank" rel="noreferrer" href="https://play.katanainu.com/">
+                    <a target="_blank" rel="noreferrer" href="https://launcher.katanainu.com/">
                       <img src="assets/img/images/play.png" alt="" />
                     </a>
                     {/* <span>OR</span>

@@ -66,86 +66,6 @@ const Downloads = () =>{
                   </svg>
                 </div>
               </div>
-
-
-
-                      {/* <Modal
-                        show={this.state.show}
-                        onHide={() => this.setState({ show: false })}
-                        aria-labelledby="contained-modal-title-vcenter"
-                        centered>
-                        <Modal.Body className='p-5'>
-                            <p><a className='btn d-block btn-primary' href='https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15&chain=mainnet' rel='noreferrer' target='_blank'>Uniswap</a></p>
-                            <p><a className='btn d-block' href='https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205' rel='noreferrer' target='_blank'>Pancake Swap</a></p>
-                            <p><a className='btn d-block btn-success' href='https://www.bitmart.com/trade/en?symbol=KATA_USDT' rel='noreferrer' target='_blank'>Bitmart</a></p>
-                            <p><a className='btn d-block btn-danger' href='https://www.hotbit.io/exchange?symbol=KATA_USDT' rel='noreferrer' target='_blank'>Hotbit</a></p>
-                            <p><a className='btn d-block btn-secondary' href='https://www.probit.com/app/exchange/KATA-USDT' rel='noreferrer' target='_blank'>Probit</a></p>
-                            <p><a className='btn d-block btn-secondary' href='https://www.digifinex.com/en-ww/trade/USDT/KATA' rel='noreferrer' target='_blank'>DIGIFINEX</a></p>
-                            <p><a className='btn d-block btn-secondary' href='https://www.mexc.com/de-DE/exchange/KATA_USDT' rel='noreferrer' target='_blank'>MEXC</a></p>
-                        </Modal.Body>
-                    </Modal>
-                    <Modal
-                        show={this.state.modal}
-                        onHide={() => this.setState({ modal: false })}
-                        aria-labelledby="contained-modal-title-vcenter"
-                        centered>
-                        <Modal.Body className='p-5'>
-                            <p>
-                                <a
-                                    className='btn d-block'
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    href='https://t.me/katanainu'
-                                    style={{ background: '#0077b5' }}>
-                                    <i className="fab fa-telegram" style={{ marginRight: '15px' }}></i>
-                                    <span>Telegram</span>
-                                </a>
-                            </p>
-                            <p>
-                                <a
-                                    className='btn d-block'
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    href='https://www.discord.gg/katanainu'
-                                    style={{ background: '#FF4301' }}>
-                                    <i className="fab fa-discord" style={{ marginRight: '15px' }}></i>
-                                    <span>Discord</span>
-                                </a>
-                            </p>
-                        </Modal.Body>
-                    </Modal> */}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             </div>
             <div className="row align-items-end justify-content-center">
 
@@ -240,6 +160,57 @@ const Downloads = () =>{
               </div>
 
             </div>
+
+
+
+
+
+<div className="row justify-content-center">
+              <div className="col-md-12">
+                <div className="newplay_area mt-50">
+                  <h2 className="download-now">Download Now : </h2>
+                  <div className="download-btn-wrap">
+                    <a target="_blank" rel="noreferrer" href="https://play.katanainu.com/">
+                      <img src="assets/img/images/download_btn.png" alt="" />
+                    </a>
+                    <a target="_blank" rel="noreferrer" href="https://play.katanainu.com/">
+                      <img src="assets/img/images/play.png" alt="" />
+                    </a>
+                    {/* <span>OR</span>
+                    <a target="_blank" rel="noreferrer" href="https://play.katanainu.com/">
+                      <img src="assets/img/images/xir.png" alt="" />
+                    </a> */}
+                    {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKIiYSpqNiBotOqkYZMUKqKnizt2_Xm1cLFjkyBH_CcpX3hg/viewform" target="_blank" rel="noreferrer" class="btn">Request a key</a> */}
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           </div>
           </section>
           {/* download-area-end */}

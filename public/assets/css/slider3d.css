@@ -1,0 +1,120 @@
+.cascade-slider_container {
+  position: relative;
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.cascade-slider_item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%) scale(0.3);
+  transition: all 400ms ease;
+  opacity: 0;
+  z-index: -1;
+}
+
+.cascade-slider_item.next {
+  left: 50%;
+  transform: translateY(-50%) translateX(-145%) scale(0.6);
+  opacity: 1;
+  z-index: 1;
+  perspective: 900px;
+}
+
+.cascade-slider_item.next img {
+  transform-style: preserve-3d;
+  transform: rotateY(-25deg);
+}
+.cascade-slider_item.prev img {
+  transform-style: preserve-3d;
+  transform: rotateY(25deg);
+}
+
+.cascade-slider_item.next model-viewer,
+.cascade-slider_item.prev model-viewer{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.cascade-slider_item.now model-viewer {
+  width: 830px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.cascade-slider_slides {
+  height: 600px;
+}
+
+.cascade-slider_item.prev {
+  left: 50%;
+  transform: translateY(-50%) translateX(35%) scale(0.6);
+  opacity: 1;
+  z-index: 1;
+  perspective: 900px;
+}
+
+.cascade-slider_item.now {
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-53%) scale(1);
+  opacity: 1;
+  z-index: 5;
+}
+
+.cascade-slider_item::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scale(0.6);
+  top: 5px;
+  background-image: url(../img/images/fires.png);
+  width: 500px;
+  height: 700px;
+  z-index: -1;
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s all;
+  background-position: center;
+  background-size: cover;
+}
+
+/* .cascade-slider_item.now::before {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+  transition: 0.4s all;
+} */
+
+.cascade-slider_arrow i {
+  color: white;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.cascade-slider-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cascade-slider_arrow {
+  position: absolute;
+  top: 45%;
+  z-index: 33;
+}
+
+.cascade-slider_arrow.cascade-slider_arrow-right {
+  right: -13%;
+}
+
+.cascade-slider_arrow.cascade-slider_arrow-left {
+  left: -13%;
+}

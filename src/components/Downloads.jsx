@@ -1,15 +1,68 @@
-import React from 'react'
+import React from 'react';
+import { Modal } from 'react-bootstrap';
+class Downloads extends React.Component {
 
+    constructor(props) {
+        super(props);
+        this.state = {
+            show: false,
+            modal: false
+        }
+    }
 
-// import ReactPlayer from 'react-player'
+    handleShow() {
+        this.setState({ show: true })
+        window.dotq = window.dotq || [];
+        window.dotq.push({
+            'projectId': '10000',
+            'properties': {
+                'pixelId': '10176003',
+                'userEmail': '<email_address>',
+                'qstrings': {
+                    'et': 'custom',
+                    'ec': 'token'
+                }
+            }
+        });
+        console.log(window.dotq)
+    }
 
-const Downloads = () =>{
+    fireMintButton() {
+        window.dotq = window.dotq || [];
+        window.dotq.push({
+            'projectId': '10000',
+            'properties': {
+                'pixelId': '10176003',
+                'userEmail': '<email_address>',
+                'qstrings': {
+                    'et': 'custom',
+                    'ec': 'mint'
+                }
+            }
+        });
 
+        console.log(window.dotq)
+    }
 
-    return (
-        <>
-          {/* download-area */}
-          <section className="download-area">
+    openModal() {
+        this.setState({ modal: true })
+        window.dotq = window.dotq || [];
+        window.dotq.push({
+            'projectId': '10000',
+            'properties': {
+                'pixelId': '10176003',
+                'userEmail': '<email_address>',
+                'qstrings': {
+                    'et': 'custom',
+                    'ec': 'discord'
+                }
+            }
+        });
+        console.log(window.dotq)
+    }
+    render() {
+        return(
+        <section className="download-area">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-12">
@@ -66,6 +119,70 @@ const Downloads = () =>{
                   </svg>
                 </div>
               </div>
+
+
+
+
+                      <Modal
+                        show={this.state.show}
+                        onHide={() => this.setState({ show: false })}
+                        aria-labelledby="contained-modal-title-vcenter"
+                        centered>
+                        <Modal.Body className='p-5'>
+                            <p><a className='btn d-block btn-primary' href='https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x2e85ae1C47602f7927bCabc2Ff99C40aA222aE15&chain=mainnet' rel='noreferrer' target='_blank'>Uniswap</a></p>
+                            <p><a className='btn d-block' href='https://pancakeswap.finance/swap?outputCurrency=0x6D6bA21E4C4b29CA7Bfa1c344Ba1E35B8DaE7205' rel='noreferrer' target='_blank'>Pancake Swap</a></p>
+                            <p><a className='btn d-block btn-success' href='https://www.bitmart.com/trade/en?symbol=KATA_USDT' rel='noreferrer' target='_blank'>Bitmart</a></p>
+                            <p><a className='btn d-block btn-danger' href='https://www.hotbit.io/exchange?symbol=KATA_USDT' rel='noreferrer' target='_blank'>Hotbit</a></p>
+                            <p><a className='btn d-block btn-secondary' href='https://www.probit.com/app/exchange/KATA-USDT' rel='noreferrer' target='_blank'>Probit</a></p>
+                            <p><a className='btn d-block btn-secondary' href='https://www.digifinex.com/en-ww/trade/USDT/KATA' rel='noreferrer' target='_blank'>DIGIFINEX</a></p>
+                            <p><a className='btn d-block btn-secondary' href='https://www.mexc.com/de-DE/exchange/KATA_USDT' rel='noreferrer' target='_blank'>MEXC</a></p>
+                        </Modal.Body>
+                    </Modal>
+                    <Modal
+                        show={this.state.modal}
+                        onHide={() => this.setState({ modal: false })}
+                        aria-labelledby="contained-modal-title-vcenter"
+                        centered>
+                        <Modal.Body className='p-5'>
+                            <p>
+                                <a
+                                    className='btn d-block'
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href='https://t.me/katanainu'
+                                    style={{ background: '#0077b5' }}>
+                                    <i className="fab fa-telegram" style={{ marginRight: '15px' }}></i>
+                                    <span>Telegram</span>
+                                </a>
+                            </p>
+                            <p>
+                                <a
+                                    className='btn d-block'
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href='https://www.discord.gg/katanainu'
+                                    style={{ background: '#FF4301' }}>
+                                    <i className="fab fa-discord" style={{ marginRight: '15px' }}></i>
+                                    <span>Discord</span>
+                                </a>
+                            </p>
+                        </Modal.Body>
+                    </Modal>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div>
             <div className="row align-items-end justify-content-center">
 
@@ -93,9 +210,10 @@ const Downloads = () =>{
                   <span className='cmark'>you have to fulfil any one of the requirements below: </span>
 
                 <div className="hold_area">
-                  <div className="hold500kata">
-                    <h3>Hold <span className='cmark' onClick={() => this.handleShow()}>500k</span> $KATA TOKENS</h3>
+                  <div className="hold500kata" onClick={() => this.handleShow()}>
+                    <h3>Hold <span className='cmark'>500k</span> $KATA TOKENS</h3>
                   </div>
+
                   <div className="buy_here">
                     <img src="assets/img/images/ot.png" alt=""/>
                     <p><a target="_blank" rel="noreferrer" href=" ">Buy Here</a></p>
@@ -125,15 +243,6 @@ const Downloads = () =>{
                   </ul>
                 </div>
 
-
-
-
-
-
-
-
-
-
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6">
@@ -142,30 +251,13 @@ const Downloads = () =>{
                   <div className="about-video about_video">
                     <iframe src={"https://www.youtube.com/embed/HqUcaLl1EFw?autoplay=1&iv_load_policy=0&loop=1&playsinline=1&controls=0&mute=1&origin=" + window.location.origin} title="YouTube video player" frameBorder={0} allowFullScreen></iframe>
                   </div>
-                  {/* <div className="player-wrapper">
-
-                    <ReactPlayer
-                      className='react-player'
-                      url='https://www.youtube.com/watch?v=9c7pDf-WFAk&t=4s'
-                      playing='true'
-                      width='640'
-                      height='360'
-                      loop='true'
-                      controls='true'
-                      // muted='true'
-                    />
-                  </div> */}
                 </div>
 
               </div>
 
             </div>
 
-
-
-
-
-<div className="row justify-content-center">
+            <div className="row justify-content-center">
               <div className="col-md-12">
                 <div className="newplay_area mt-50">
                   <h2 className="download-now">Download Now : </h2>
@@ -186,36 +278,9 @@ const Downloads = () =>{
                 </div>
               </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           </div>
-          </section>
-          {/* download-area-end */}
-        </>
-    )
-}
+        </section>
 
+);
+                    }}
 export default Downloads

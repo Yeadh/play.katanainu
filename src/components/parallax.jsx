@@ -80,6 +80,7 @@ class ParallaxBg extends React.Component {
                                 <h2 className='d-none'>nft pc game</h2>
                             <div className="banner-btn-wrap mt-30">
                                 <div className="wow fadeInLeft" data-wow-delay=".8s" data-animation="fadeInLeft"><a href="https://kainu.io/" target="_blank" rel="noreferrer" className="btn">MINT NFTs <i class="fa-solid fa-chevron-right"></i></a></div>
+
                                 <div className="wow fadeInUp" data-wow-delay=".8s" data-animation="fadeInUp"><a href="# " className="btn" onClick={() => this.handleShow()}>buy token <i class="fa-solid fa-chevron-right"></i></a></div>
                                 <div className="wow fadeInRight" data-wow-delay=".8s" data-animation="fadeInRight"><a href="https://staking.katanainu.com/" target="_blank" rel="noreferrer" className="btn">Staking Here <i class="fa-solid fa-chevron-right"></i></a></div>
                             </div>

@@ -3667,6 +3667,7 @@ footer {
 	display: flex;
 	margin: 10px 0;
 	align-items: center;
+	cursor: pointer;
 }
 .hold500kata::after {
 	content: "";

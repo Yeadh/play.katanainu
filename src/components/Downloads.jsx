@@ -77,10 +77,9 @@ class Downloads extends React.Component {
                     <a target="_blank" rel="noreferrer" href="https://launcher.katanainu.com/">
                       <img src="assets/img/images/play.png" alt="" />
                     </a>
-                    {/* <span>OR</span>
-                    <a target="_blank" rel="noreferrer" href="https://play.katanainu.com/">
-                      <img src="assets/img/images/xir.png" alt="" />
-                    </a> */}
+                    <a className='white' target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1gwRleTzjZad5Ktp8YCjr3FgYPqKGRo1v/view">
+                      Download Directly
+                    </a>
                     {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKIiYSpqNiBotOqkYZMUKqKnizt2_Xm1cLFjkyBH_CcpX3hg/viewform" target="_blank" rel="noreferrer" class="btn">Request a key</a> */}
 
                   </div>

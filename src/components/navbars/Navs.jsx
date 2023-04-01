@@ -59,7 +59,7 @@ const Navs  = () => {
                     <li className="menu-item-has-children">
                         <a href="# "><span>Game</span></a>
                         <ul className="submenu">
-                            <li><a href="# ">Play Katana Inu</a></li>
+                            <li><a href="https://play.katanainu.com/">Play Katana Inu</a></li>
                             <li><a href="# ">How the game works?</a></li>
                         </ul>
                     </li>
@@ -78,7 +78,7 @@ const Navs  = () => {
                         </ul>
                     </li>
                     <li>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKIiYSpqNiBotOqkYZMUKqKnizt2_Xm1cLFjkyBH_CcpX3hg/viewform" target="_blank" rel="noreferrer">PLAY</a>
+                        <a href="https://play.katanainu.com/" target="_blank" rel="noreferrer">PLAY</a>
                     </li>
                     <li>
                         <NavLink to="/ranking" className={({ isActive }) => isActive ? 'active' : ''}>Ranking</NavLink>

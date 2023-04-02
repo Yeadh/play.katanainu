@@ -71,13 +71,13 @@ class Downloads extends React.Component {
                   <h4 className="new_title_bold">closed beta now!</h4>
                   <h2 className="download-now">Download Now : </h2>
                   <div className="download-btn-wrap">
-                    <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1gwRleTzjZad5Ktp8YCjr3FgYPqKGRo1v/view">
+                    <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1zcG_GPupKH8Y6dhon9GoVTPGsewTXaqU/view">
                       <img src="assets/img/images/download_btn.png" alt="" />
                     </a>
-                    <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1gwRleTzjZad5Ktp8YCjr3FgYPqKGRo1v/view">
+                    <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1zcG_GPupKH8Y6dhon9GoVTPGsewTXaqU/view">
                       <img src="assets/img/images/play.png" alt="" />
                     </a>
-                    <a className='white' target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1gwRleTzjZad5Ktp8YCjr3FgYPqKGRo1v/view">
+                    <a className='white' target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1zcG_GPupKH8Y6dhon9GoVTPGsewTXaqU/view">
                       Download Directly
                     </a>
                     {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKIiYSpqNiBotOqkYZMUKqKnizt2_Xm1cLFjkyBH_CcpX3hg/viewform" target="_blank" rel="noreferrer" class="btn">Request a key</a> */}
@@ -261,13 +261,13 @@ class Downloads extends React.Component {
                 <div className="newplay_area mt-50">
                   <h2 className="download-now">Download Now : </h2>
                   <div className="download-btn-wrap">
-                    <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1gwRleTzjZad5Ktp8YCjr3FgYPqKGRo1v/view">
+                    <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1zcG_GPupKH8Y6dhon9GoVTPGsewTXaqU/view">
                       <img src="assets/img/images/download_btn.png" alt="" />
                     </a>
-                    <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1gwRleTzjZad5Ktp8YCjr3FgYPqKGRo1v/view">
+                    <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1zcG_GPupKH8Y6dhon9GoVTPGsewTXaqU/view">
                       <img src="assets/img/images/play.png" alt="" />
                     </a>
-                    <a className='white' target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1gwRleTzjZad5Ktp8YCjr3FgYPqKGRo1v/view">
+                    <a className='white' target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1zcG_GPupKH8Y6dhon9GoVTPGsewTXaqU/view">
                       Download Directly
                     </a>
                     {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKIiYSpqNiBotOqkYZMUKqKnizt2_Xm1cLFjkyBH_CcpX3hg/viewform" target="_blank" rel="noreferrer" class="btn">Request a key</a> */}

@@ -46,6 +46,7 @@ const Navs  = () => {
                     <li className="menu-item-has-children">
                         <a href="# "><span>Documents</span></a>
                         <ul className="submenu">
+                            <li><a href="https://katanainu.gitbook.io/2/" target="_blank" rel="noreferrer">NFT Paper</a></li>
                             <li><a href="assets/resources/katanainuwhitepaper.pdf" target="_blank" rel="noreferrer">Whitepaper</a></li>
                             <li><a href="#roadmap">Roadmap</a></li>
                             <li><a href="assets/resources/Roadmap1.png" target="_blank" rel="noreferrer">Roadmap 2</a></li>

@@ -3669,6 +3669,15 @@ footer {
 	align-items: center;
 	cursor: pointer;
 }
+.hold500kata h3,
+.takeru h3 {
+	font-family: 'Jost';
+	font-style: italic;
+	font-weight: 600;
+	font-size: 19px;
+	line-height: 118.5%;
+	text-transform: capitalize;
+}
 .hold500kata::after {
 	content: "";
 	position: absolute;
@@ -3716,7 +3725,7 @@ footer {
 	padding: 10px;
 }
 .takeru h3 {
-	padding-right: 35%;
+	padding-right: 50%;
 	line-height: 36px;
 }
 

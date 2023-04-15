@@ -3826,3 +3826,59 @@ footer {
 	display: flex;
 	justify-content: center;
 }
+.any_issues h3 {
+	font-family: 'Jost';
+	font-style: italic;
+	font-weight: 600;
+	font-size: 38px;
+	line-height: 118.5%;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+.color_red{
+	color:red;
+}
+.font_big{
+	color: #F9C306;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 500;
+	font-family: 'Jost';
+	text-transform: uppercase;
+	line-height: 40px;
+}
+.any_issues ul{
+	display: flex;
+	margin: 15px 0;
+}
+.any_issues ul li {
+	color: #fff;
+	font-size: 18px;
+	border: 1px solid #ccc;
+	margin: 5px;
+	padding: 15px;
+	text-transform: uppercase;
+	border-radius: 8px;
+	transition: all 0.3s ease-out 0s;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.any_issues ul li:hover {
+	color: #ffb42f;
+	border: 1px solid #ffb42f;
+}
+
+.any_issues p{
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 138.5%;
+	text-transform: capitalize;
+	color: rgba(255, 255, 255, 0.75);
+}
+p.success {
+	color: #ffb42f;
+	font-size: 30px;
+}

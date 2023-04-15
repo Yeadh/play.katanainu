@@ -1858,6 +1858,8 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
+
 	.custom-container {
 		max-width: 540px;
 	}
@@ -1885,6 +1887,9 @@
 
 
 @media only screen and (max-width:540px) {
+	.any_issues ul {
+			flex-direction: column;
+		}
 	.download-area {
 		padding: 0;
 	}
@@ -1994,6 +1999,7 @@
 }
 
 @media only screen and (max-width: 414px) {
+
 	.server_open {
 		display: block;
 	}

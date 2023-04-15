@@ -276,6 +276,28 @@ class Downloads extends React.Component {
                 </div>
               </div>
             </div>
+
+
+            <div className="row text-center justify-content-center any_issues pt-50 mt-50 mb-50">
+              <div className="col-md-10">
+                <h3><span className='color_red'>Any issue?</span> Here the Answer</h3>
+                <p><span className='font_big'>Dear KataFam,</span></p>
+                <p>this is the closed beta launcher for downloading the Katana Inu Game client. If you encounter any issues during the installation or extraction process, please follow these steps to run the game:</p>
+                <ul>
+                  <li>Download the launcher.</li>
+                  <li>Register your account</li>
+                  <li>Connect your wallet to check if you hold any NFTs/Tokens or enter your Access Key.</li>
+                  <li>Click on the download button.</li>
+                </ul>
+                <p>Some testers have reported issues with extraction. To resolve this, check the "Katana-Inu" file in your downloads folder. Open it and locate the "Katanainu_Game.zip/rar" file. Extract it and move the file to the correct directory.</p>
+                <p>Reopen the launcher and login again.</p>
+                <p>The game will launch, and you will need to create a new account (this will be deleted in future updates).</p>
+                <p className='success' >Enjoy playing the game!</p>
+              </div>
+            </div>
+
+
+
           </div>
         </section>
 

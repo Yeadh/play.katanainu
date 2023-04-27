@@ -1887,6 +1887,15 @@
 
 
 @media only screen and (max-width:540px) {
+	.pack-btn-wrap {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.pack-btn-wrap .btn {
+		margin-bottom: 15px;
+	}
 	.any_issues ul {
 			flex-direction: column;
 		}

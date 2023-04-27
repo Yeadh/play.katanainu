@@ -3882,3 +3882,63 @@ p.success {
 	color: #ffb42f;
 	font-size: 30px;
 }
+.parea-bg {
+	border-radius: 12px;
+	background-image: -moz-linear-gradient(4deg, rgb(17, 17, 21) 0%, rgb(17, 17, 21) 100%);
+	background-image: -webkit-linear-gradient(4deg, rgb(17, 17, 21) 0%, rgb(17, 17, 21) 100%);
+	background-image: -ms-linear-gradient(4deg, rgb(17, 17, 21) 0%, rgb(17, 17, 21) 100%);
+	left: 517px;
+	top: 363px;
+	width: 75%;
+	height: 303px;
+	z-index: 3;
+	margin: auto
+}
+
+.pack-content {
+	padding: 0 0 0 30px
+}
+
+.pack-pin-text {
+	display: flex;
+	align-items: center
+}
+
+.pack-pin-text h4 {
+	font-size: 15px;
+	color: #f3a511;
+	margin-left: 10px
+}
+
+.pack-main-content {
+	padding: 35px 0 0
+}
+
+.pack-main-content h3 {
+	font-size: 24px;
+	font-weight: 500;
+	color: #f3a511;
+	text-transform: uppercase;
+	font-family: grinddemolished, sans-serif
+}
+
+.pack-main-content h2 {
+	font-size: 28px;
+	color: #fff;
+	font-weight: 700
+}
+
+.pack-btn-wrap .btn {
+	padding: 8px 15px;
+	font-size: 14px;
+	margin-right: 10px;
+}
+.champion_nft {
+	border-radius: 12px;
+	background-image: -moz-linear-gradient(4deg, rgb(17, 17, 21) 0%, rgb(17, 17, 21) 100%);
+	background-image: -webkit-linear-gradient(4deg, rgb(17, 17, 21) 0%, rgb(17, 17, 21) 100%);
+	background-image: -ms-linear-gradient(4deg, rgb(17, 17, 21) 0%, rgb(17, 17, 21) 100%);
+	width: 80%;
+	z-index: 3;
+	margin: auto;
+}

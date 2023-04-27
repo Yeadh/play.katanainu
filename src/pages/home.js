@@ -2,6 +2,7 @@ import ParallaxBg from "../components/parallax"
 import MainLayout from "../layouts/MainLayout"
 import BackLayout from "../layouts/BackLayout"
 import Downloads from "../components/Downloads"
+import Brands from "../components/Brands"
 
 
 import { Dots } from "react-preloaders2"
@@ -20,6 +21,7 @@ const Home = () =>{
             <MainLayout>
                 <ParallaxBg />
                 <BackLayout>
+                    <Brands/>
                     <Downloads/>
                 </BackLayout>
             </MainLayout>

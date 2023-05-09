@@ -28,7 +28,7 @@ const Brands = () =>{
                                     </div>
                                     <div className="pack-btn-wrap ">
                                         <a href="https://discord.com/invite/katanainu" target="_blank" rel="noreferrer" className="btn">Join Discord <i class="fa-solid fa-chevron-right"></i></a>
-                                        <a href="https://whitelist.katanainu.com/" target="_blank" rel="noreferrer" className="ml-20 btn">Whitelist <i class="fa-solid fa-chevron-right"></i></a>
+                                        <a href="https://mint.katanainu.com/" target="_blank" rel="noreferrer" className="ml-20 btn">Mint Now <i class="fa-solid fa-chevron-right"></i></a>
                                         <a href="https://nft.katanainu.com/" target="_blank" rel="noreferrer" className="ml-20 btn">More info! <i class="fa-solid fa-chevron-right"></i></a>
                                     </div>
                                 </div>

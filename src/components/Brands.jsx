@@ -23,7 +23,7 @@ const Brands = () =>{
                                     </div>
                                     <div className="pack-main-content">
                                         <h3>2D NFT FORGING GEN 1</h3>
-                                        <h2>Dropping 10th May 2023.</h2>
+                                        <h2><a href="https://discord.com/invite/katanainu" target="_blank" rel="noreferrer">LIVE NOW</a></h2>
                                         <p>Forge super rare NFTs with this collection for more join our Discord</p>
                                     </div>
                                     <div className="pack-btn-wrap ">

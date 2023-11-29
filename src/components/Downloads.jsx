@@ -211,7 +211,7 @@ class Downloads extends React.Component {
 
                 <div className="hold_area">
                   <div className="hold500kata" onClick={() => this.handleShow()}>
-                    <h3>Hold <span className='cmark'>500k</span> $KATA TOKENS</h3>
+                    <h3>Hold <span className='cmark'>30k</span> $KATA TOKENS</h3>
                   </div>
 
                   <div className="buy_here">

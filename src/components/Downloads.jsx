@@ -1,5 +1,6 @@
 import React from 'react';
 import { Modal } from 'react-bootstrap';
+import BgVideo from '../video/bannerbg.mp4';
 class Downloads extends React.Component {
 
     constructor(props) {
@@ -72,13 +73,13 @@ class Downloads extends React.Component {
                   <h4 className="new_title_bold">closed beta now!</h4>
                   <h2 className="download-now">Download Now : </h2>
                   <div className="download-btn-wrap">
-                    <a target="_blank" rel="noreferrer" href="https://nx37610.your-storageshare.de/s/p8x4CiT9FFtTbdw/download/katana-inu-launcher_v2.0.2.zip">
+                    <a target="_blank" rel="noreferrer" href="https://storage.cloud.google.com/euphoric-anchor-397613.appspot.com/katana-inu%20Setup%203.0.1.exe">
                       <img src="assets/img/images/download_btn.png" alt="" />
                     </a>
-                    <a target="_blank" rel="noreferrer" href="https://nx37610.your-storageshare.de/s/p8x4CiT9FFtTbdw/download/katana-inu-launcher_v2.0.2.zip">
+                    <a target="_blank" rel="noreferrer" href="https://storage.cloud.google.com/euphoric-anchor-397613.appspot.com/katana-inu%20Setup%203.0.1.exe">
                       <img src="assets/img/images/play.png" alt="" />
                     </a>
-                    <a className='white' target="_blank" rel="noreferrer" href="https://nx37610.your-storageshare.de/s/p8x4CiT9FFtTbdw/download/katana-inu-launcher_v2.0.2.zip">
+                    <a className='white' target="_blank" rel="noreferrer" href="https://storage.cloud.google.com/euphoric-anchor-397613.appspot.com/katana-inu%20Setup%203.0.1.exe">
                       Download Directly
                     </a>
                     {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKIiYSpqNiBotOqkYZMUKqKnizt2_Xm1cLFjkyBH_CcpX3hg/viewform" target="_blank" rel="noreferrer" class="btn">Request a key</a> */}
@@ -173,16 +174,6 @@ class Downloads extends React.Component {
 
 
 
-
-
-
-
-
-
-
-
-
-
             </div>
             <div className="row align-items-end justify-content-center">
 
@@ -237,9 +228,12 @@ class Downloads extends React.Component {
                   <ul>
                     <li><span>1x </span>Immortal</li>
                     <li><span>1x </span>Legendary</li>
-                    <li><span>5x </span>Common</li>
-                    <li><span>2x </span>Mystical</li>
-                    <li><span>3x </span>Rare</li>
+                    <li><span>1x </span>Common</li>
+                    <li><span>1x </span>Mystical</li>
+                    <li><span>1x </span>Rare</li>
+                    <li><span>1x </span>Rare</li>
+                    <li><span>1x </span>Forge</li>
+                    <li><span>1x </span>Crusader</li>
                   </ul>
                 </div>
 
@@ -249,7 +243,9 @@ class Downloads extends React.Component {
                 <div className="download-img">
                   <img className="paroller" data-paroller-factor=".03" data-paroller-type="foreground" data-paroller-direction="horizontal" src="assets/img/images/download_img.png" alt="img" />
                   <div className="about-video about_video">
-                    <iframe src={"https://www.youtube.com/embed/HqUcaLl1EFw?autoplay=1&iv_load_policy=0&loop=1&playsinline=1&controls=0&mute=1&origin=" + window.location.origin} title="YouTube video player" frameBorder={0} allowFullScreen></iframe>
+                    <video id="fullscreen-video" src={BgVideo} autoPlay muted loop/>
+{/*
+                    <iframe src={"https://www.youtube.com/embed/HqUcaLl1EFw?autoplay=1&iv_load_policy=0&loop=1&playsinline=1&controls=0&mute=1&origin=" + window.location.origin} title="YouTube video player" frameBorder={0} allowFullScreen></iframe> */}
                   </div>
                 </div>
 
@@ -257,26 +253,7 @@ class Downloads extends React.Component {
 
             </div>
 
-            <div className="row justify-content-center">
-              <div className="col-md-12">
-                <div className="newplay_area mt-50">
-                  <h2 className="download-now">Download Now : </h2>
-                  <div className="download-btn-wrap">
-                    <a target="_blank" rel="noreferrer" href="https://nx37610.your-storageshare.de/s/p8x4CiT9FFtTbdw/download/katana-inu-launcher_v2.0.2.zip">
-                      <img src="assets/img/images/download_btn.png" alt="" />
-                    </a>
-                    <a target="_blank" rel="noreferrer" href="https://nx37610.your-storageshare.de/s/p8x4CiT9FFtTbdw/download/katana-inu-launcher_v2.0.2.zip">
-                      <img src="assets/img/images/play.png" alt="" />
-                    </a>
-                    <a className='white' target="_blank" rel="noreferrer" href="https://nx37610.your-storageshare.de/s/p8x4CiT9FFtTbdw/download/katana-inu-launcher_v2.0.2.zip">
-                      Download Directly
-                    </a>
-                    {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKIiYSpqNiBotOqkYZMUKqKnizt2_Xm1cLFjkyBH_CcpX3hg/viewform" target="_blank" rel="noreferrer" class="btn">Request a key</a> */}
 
-                  </div>
-                </div>
-              </div>
-            </div>
 
 
             <div className="row text-center justify-content-center any_issues pt-50 mt-50 mb-50">

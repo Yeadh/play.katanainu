@@ -68,22 +68,20 @@ class Downloads extends React.Component {
             <div className="col-md-12">
               <div className="newplay_area">
                 <h4 className="new_title">Play Our</h4>
-                <h4 className="new_title_bold">You can Download</h4>
-                <h2 className="download-now"> 6th feb 10am CET</h2>
-                {/* <h2 className="download-now">Download Now : </h2> */}
-                {/* <h2 className="download-now">Download Now : </h2> */}
+                <h4 className="new_title_bold">closed beta now!</h4>
+                <h2 className="download-now">Download Now : </h2>
                 <div className="download-btn-wrap">
-                  {/* <a
+                  <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://storage.cloud.google.com/euphoric-anchor-397613.appspot.com/katana-inu%20Setup%203.0.1.exe"
+                    href="https://storage.googleapis.com/euphoric-anchor-397613.appspot.com/katana-inu%20Setup%203.0.7.exe"
                   >
                     <img src="assets/img/images/download_btn.png" alt="" />
                   </a>
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://storage.cloud.google.com/euphoric-anchor-397613.appspot.com/katana-inu%20Setup%203.0.1.exe"
+                    href="https://storage.googleapis.com/euphoric-anchor-397613.appspot.com/katana-inu%20Setup%203.0.7.exe"
                   >
                     <img src="assets/img/images/play.png" alt="" />
                   </a>
@@ -91,10 +89,10 @@ class Downloads extends React.Component {
                     className="white"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://storage.cloud.google.com/euphoric-anchor-397613.appspot.com/katana-inu%20Setup%203.0.1.exe"
+                    href="https://storage.googleapis.com/euphoric-anchor-397613.appspot.com/katana-inu%20Setup%203.0.7.exe"
                   >
                     Download Directly
-                  </a> */}
+                  </a>
                 </div>
                 <svg
                   width="620"

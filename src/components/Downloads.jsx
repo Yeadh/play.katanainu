@@ -123,7 +123,16 @@ class Downloads extends React.Component {
                   </defs>
                 </svg>
 
-                <div className="server_open">
+                <div className="server_open text-center">
+                  <div className="server-text">
+                    <h4>THE SERVER ARE ALWAYS OPEN BETWEEN:</h4>
+                    <span>14 - 16 pm & 19 - 22 pm CET TIME</span>
+                  </div>
+                </div>
+                <div className="server_open text-center mt-20">
+                  <div className="server-text">
+                    <h4>PLAY MODES AVAILABLE:</h4>
+                  </div>
                   <div className="server_time">
                     <ul>
                       <li>1vs1</li>
@@ -290,8 +299,10 @@ class Downloads extends React.Component {
                   </div>
                   <div className="key_content">
                     <h2>
-                      For our closed beta you need to have{" "}
-                      <span className="key_mark">a whitelist key</span>.
+                      Don’t have{" "}
+                      <span className="key_mark">an access key?</span> Sign up
+                      to our newsletter & join our Discord to stay updated on
+                      opportunities to win one!
                     </h2>
                   </div>
                 </div>
@@ -301,22 +312,16 @@ class Downloads extends React.Component {
                     rel="noreferrer"
                     href="https://discord.com/invite/katanainu"
                   >
-                    You can win a key on our discord join here
+                    Win A Key By Joining Our Discord
                     <i class="fab fa-discord"></i>{" "}
                   </a>
                 </div>
 
-                <div className="dont_worry mb-15">
-                  *If you don't have key, no worries read below
-                </div>
                 <p className="hold_key">
-                  hold Tokens or NFTs to participate in our closed beta: In
-                  order to get access to the closed beta,
+                  You can access closed beta without an access key if you:
                 </p>
 
-                <span className="cmark">
-                  you have to fulfil any one of the requirements below:{" "}
-                </span>
+                {/* <span className='cmark'>You have to : </span> */}
 
                 <div className="hold_area">
                   <div
@@ -327,55 +332,42 @@ class Downloads extends React.Component {
                       Hold <span className="cmark">30k</span> $KATA TOKENS
                     </h3>
                   </div>
-
-                  <div className="buy_here">
+                  <div class="buy_here">
                     <img src="assets/img/images/ot.png" alt="" />
-                    <p>
-                      <a target="_blank" rel="noreferrer" href=" ">
-                        Buy Here
-                      </a>
-                    </p>
                   </div>
+
                   <div className="takeru">
-                    <h3>
-                      Hold
-                      <span className="cmark">
-                        {" "}
-                        1 Takeru Genesis Collection NFT{" "}
-                      </span>
-                    </h3>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://opensea.io/collection/katanainu-takeru"
+                    >
+                      <h3>
+                        Hold
+                        <span className="cmark">
+                          {" "}
+                          1 Takeru Genesis Collection NFT{" "}
+                        </span>
+                      </h3>
+                    </a>
+                  </div>
+                  <div class="buy_here">
+                    <img src="assets/img/images/ot.png" alt="" />
                   </div>
 
-                  <div className="buy_here">
-                    <img src="assets/img/images/ot.png" alt="" />
-                    <p>
-                      <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://opensea.io/collection/katanainu-takeru"
-                      >
-                        Buy Here
-                      </a>
-                    </p>
-                  </div>
                   <div className="takesword">
                     <h3>
-                      Hold one of the below combinations for the{" "}
-                      <span className="cmark">
-                        GameZone Sword or Bluezilla Axe NFT's:
-                      </span>
-                    </h3>
-                  </div>
-                  <div className="buy_here">
-                    <p className="mt-15">
                       <a
                         target="_blank"
                         rel="noreferrer"
                         href="https://hub.gamezone.io/projects/kata-inu"
                       >
-                        Buy Here
+                        Hold one of the below combinations for the{" "}
+                        <span className="cmark">
+                          GameZone Sword or Bluezilla Axe NFT's:
+                        </span>
                       </a>
-                    </p>
+                    </h3>
                   </div>
                 </div>
                 <div className="hero_list">
@@ -436,16 +428,14 @@ class Downloads extends React.Component {
           <div className="row text-center justify-content-center any_issues pt-50 mt-50 mb-50">
             <div className="col-md-10">
               <h3>
-                <span className="color_red">Any issue?</span> Here the Answer
+                <span className="color_red">Any issue?</span>
               </h3>
               <p>
-                <span className="font_big">Dear KataFam,</span>
+                <span className="font_big">DEAR KATAFAM,</span>
               </p>
               <p>
-                this is the closed beta launcher for downloading the Katana Inu
-                Game client. If you encounter any issues during the installation
-                or extraction process, please follow these steps to run the
-                game:
+                “If you have encounter any issues during the installation,
+                please follow these steps to run the game:
               </p>
               <ul>
                 <li>Download the launcher.</li>
@@ -457,17 +447,21 @@ class Downloads extends React.Component {
                 <li>Click on the download button.</li>
               </ul>
               <p>
-                Some testers have reported issues with extraction. To resolve
-                this, check the "Katana-Inu" file in your downloads folder. Open
-                it and locate the "Katanainu_Game.zip/rar" file. Extract it and
-                move the file to the correct directory.
+                QA Testers have previously reported issues with extraction. To
+                resolve this problem, follow the next steps:
               </p>
-              <p>Reopen the launcher and login again.</p>
-              <p>
-                The game will launch, and you will need to create a new account
-                (this will be deleted in future updates).
-              </p>
-              <p className="success">Enjoy playing the game!</p>
+              <ul className="step_list">
+                <li>Check the “Katana-Inu” file in your Downloads folder.</li>
+                <li>Open it and locate the “Katanainu_Game.Zip/Rar” file.</li>
+                <li>Extract it.</li>
+                <li>Move file to the correct directory.</li>
+                <li>Reopen the launcher and Login again.</li>
+                <li>
+                  Game will launch and you will need to create a New Account.
+                </li>
+              </ul>
+
+              <p className="success">ENJOY PLAYING THE GAME!</p>
             </div>
           </div>
         </div>

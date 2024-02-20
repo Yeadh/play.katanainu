@@ -437,7 +437,34 @@ class Downloads extends React.Component {
                 “If you have encounter any issues during the installation,
                 please follow these steps to run the game:
               </p>
-              <ul>
+
+              <ul className="game-step">
+                <li className="align-center">
+                  <i class="fa-solid fa-download"></i>
+                  <h3>LAUNCHER</h3>
+                  <p>DOWNLOAD THE LAUNCHER.</p>
+                </li>
+                <li className="align-center">
+                  <i class="fa-solid fa-user-plus"></i>
+                  <h3>REGISTER</h3>
+                  <p>REGISTER YOUR ACCOUNT</p>
+                </li>
+                <li className="align-center">
+                  <i class="fa-solid fa-wallet"></i>
+                  <h3>CONNECT WALLET</h3>
+                  <p>
+                    CONNECT YOUR WALLET TO CHECK IF YOU HOLD ANY NFTS/TOKENS OR
+                    ENTER YOUR ACCESS KEY.
+                  </p>
+                </li>
+                <li className="align-center">
+                  <i class="fa-solid fa-download"></i>
+                  <h3>CLICK</h3>
+                  <p>CLICK ON THE DOWNLOAD BUTTON.</p>
+                </li>
+              </ul>
+
+              {/* <ul>
                 <li>Download the launcher.</li>
                 <li>Register your account</li>
                 <li>
@@ -445,18 +472,34 @@ class Downloads extends React.Component {
                   enter your Access Key.
                 </li>
                 <li>Click on the download button.</li>
-              </ul>
+              </ul> */}
               <p>
                 QA Testers have previously reported issues with extraction. To
                 resolve this problem, follow the next steps:
               </p>
               <ul className="step_list">
-                <li>Check the “Katana-Inu” file in your Downloads folder.</li>
-                <li>Open it and locate the “Katanainu_Game.Zip/Rar” file.</li>
-                <li>Extract it.</li>
-                <li>Move file to the correct directory.</li>
-                <li>Reopen the launcher and Login again.</li>
                 <li>
+                  <span>phase 1</span>
+                  Check the “Katana-Inu” file in your Downloads folder.
+                </li>
+                <li>
+                  <span>phase 2</span>
+                  Open it and locate the “Katanainu_Game.Zip/Rar” file.
+                </li>
+                <li>
+                  <span>phase 3</span>
+                  Extract it.
+                </li>
+                <li>
+                  <span>phase 4</span>
+                  Move file to the correct directory.
+                </li>
+                <li>
+                  <span>phase 5</span>
+                  Reopen the launcher and Login again.
+                </li>
+                <li>
+                  <span>phase 6</span>
                   Game will launch and you will need to create a New Account.
                 </li>
               </ul>

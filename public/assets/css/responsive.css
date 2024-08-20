@@ -1,0 +1,2520 @@
+/* Extra large devices (large desktops, 1800px and up) */
+@media (max-width: 3400px) {
+	.exchange-cal iframe {
+		width: 512px;
+	}
+}
+@media (max-width: 1800px) {
+	.parallax-area {
+		height: 65vh;
+	}
+	.main-slider .slick-arrow {
+		background: transparent;
+		width: 40px;
+		border: none;
+		position: absolute;
+		right: 20px !important;
+		bottom: 25px;
+		font-size: 25px;
+		color: #fff;
+		z-index: 7;
+	}
+
+	.main-slider .slick-arrow.slick-prev {
+		right: 50px !important;
+	}
+
+	.main-slider .slick-arrow:hover {
+		color: #ffb42f;
+		transform: scale(1.2);
+		transition: 0.3s;
+	}
+
+}
+
+
+/* Extra large devices (large desktops, 1800px and up) */
+@media (max-width: 1500px) {
+	.buy-oct-now {
+
+		bottom: 80px;
+
+	}
+
+	.player-name {
+
+		bottom: 20%;
+
+	}
+
+	.main-slider .slick-arrow {
+
+		bottom: 75px;
+
+	}
+	.team-thumbnail img {
+
+		top: -28px!important;
+
+	}
+
+	.team-card:hover .team-thumbnail img {
+		top: -47px!important;
+
+	}
+
+	.advisor-area .team-thumbnail img {
+		top: 25px!important;
+	}
+
+	.advisor-area .team-card:hover .team-thumbnail img {
+		top: 6px!important;
+	}
+
+	.advisor-area .team-card .team-content h3 {
+
+		font-size: 18px!important;
+
+	}
+
+	.custom-container {
+		max-width: 1240px;
+	}
+
+	.banner-content {
+		margin: 120px -50px 0 30px;
+	}
+
+	.banner-content .title {
+		letter-spacing: 11px;
+	}
+
+	.navbar-wrap ul li a {
+		font-size: 17px;
+		padding: 16px 25px;
+	}
+
+	.header-action .header-btn .btn {
+		font-size: 16px;
+		padding: 16px 35px;
+	}
+
+	.banner-img::before {
+		right: -200px;
+		bottom: -85px;
+		width: 910px;
+		height: 280px;
+		background-size: contain;
+	}
+
+	.gallery-items {
+		transform: scale(.9);
+	}
+
+	.gallery-nav::after,
+	.gallery-active::after {
+		width: 13%;
+	}
+
+	.gallery-nav::after,
+	.gallery-nav::before {
+		width: 30%;
+		height: calc(100% - 40px);
+	}
+
+	.gallery-nav::before {
+		left: -2px;
+		right: auto;
+	}
+
+	.gallery-nav .slick-arrow {
+		left: -80px;
+	}
+
+	.gallery-nav .slick-arrow.slick-next {
+		right: -80px;
+		left: auto;
+	}
+
+	.section-title.text-center.mb-180 {
+		margin: 0 0 70px;
+	}
+
+	.action-active::after {
+		top: 90px;
+		width: 10%;
+	}
+
+	.action-content p {
+		max-width: 90%;
+	}
+
+	.coin-img {
+		right: -85px;
+		bottom: -5px;
+	}
+
+	.coin-img img {
+		max-width: 440px;
+	}
+
+	.coin-content .title {
+		font-size: 24px;
+	}
+
+	.coin-content {
+		padding: 0 25px 25px;
+	}
+
+	.roadmap-wrapper .container {
+		margin: 0 0 0 130px;
+	}
+
+	.section-title.text-center.mb-120 {
+		margin: 0 0 55px;
+	}
+
+	.tokenomics-area {
+		padding: 165px 0 0;
+	}
+
+	.banner-social {
+		right: 6%;
+	}
+
+	.footer-widget-wrap {
+		grid-template-columns: 2fr 1fr 1fr 2fr;
+		column-gap: 100px;
+	}
+
+	.team-area.about-area .custom-container-2 {
+		width: 90%;
+	}
+
+	.about-content span {
+
+		left: -27%!important;
+
+	}
+
+}
+@media (max-width: 1398px) {
+	.new_title {
+		font-size: 52px;
+		line-height: 42px;
+	}
+	.new_title_bold {
+		font-size: 52px;
+		line-height: 42px;
+	}
+	.key_content h2 {
+		width: 65%;
+	}
+	.join_4_key a {
+		color: #fff;
+		font-size: 18px;
+	}
+	.purchase-item .purchase-btn .btn {
+		width: auto;
+		height: auto;
+	}
+	.coin-content p {
+		font-size: 12px;
+	}
+	.coin-content {
+		padding: 0 10px 10px;
+	}
+	.coin-content .title {
+		font-size: 18px;
+	}
+	.coin_img img {
+		margin-top: -25px;
+		margin-left: -95px;
+	}
+	.coin_desc::before {
+		right: 170px;
+	}
+	.parea-bg {
+		width: 90%;
+	}
+	.single-weapn {
+		height: 310px;
+		background-position: center center;
+		margin-top: 0;
+	}
+}
+@media (max-width: 1334px){
+	.parallax-area {
+		height: 60vh;
+	}
+}
+@media (max-width:1280px){
+	.join_4_key a {
+		font-size: 16px;
+	}
+	.hold500kata h3,
+	.takeru h3,
+	.takesword h3 {
+		font-size: 22px;
+	}
+
+
+	.react-player {
+		width: 92%;
+		height: 92%;
+	}
+	.purchase-item .purchase-btn .btn {
+		width: auto;
+		height: auto;
+	}
+	.parallax-area {
+		height: 58vh;
+	}
+	.coin-area .section-title {
+		margin: 0 0 100px;
+	}
+	.coin_img img {
+		width: 56%;
+		z-index: 0;
+	}
+	.coin_desc::before {
+		display: none;
+	}
+	.banner-bg video {
+		width: 160vh;
+			transform: translate(-50%, -50%);
+			position: absolute;
+			top: 55%;
+			left: 50%;
+	}
+	.download-img .about-video {
+		position: absolute;
+			top: 40%;
+			left: 0.5%;
+			height: 380px;
+			width: 99%;
+	}
+	.team-thumbnail img {
+		top: -10px!important;
+	}
+
+	.team-card:hover .team-thumbnail img {
+		top: -29px!important;
+	}
+}
+
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1199.98px) {
+.download-img .about-video {
+	height: 402px;
+	width: 86%;
+}
+	.custom-container {
+		max-width: 960px;
+	}
+
+	.logo img {
+		max-height: 80px;
+	}
+
+	.sticky-menu .navbar-wrap ul li a,
+	.navbar-wrap ul li a {
+		font-size: 15px;
+		padding: 16px 18px;
+	}
+
+	.header-action .header-btn .btn {
+		font-size: 15px;
+		padding: 12px 25px;
+		border-radius: 13px;
+	}
+
+	.banner-content {
+		margin: 40px -50px 0 0;
+	}
+
+	.banner-content .title {
+		letter-spacing: 6px;
+	}
+
+	.banner-content .btn {
+		border-radius: 10px;
+		font-size: 14px;
+		padding: 14px 25px;
+	}
+
+	.banner-btn-wrap div:nth-child(2) .btn {
+		font-size: 15px;
+		padding: 17px 30px;
+	}
+
+	.banner-play-icon {
+		bottom: 5px;
+	}
+
+	.banner-play-icon img {
+		max-width: 200px;
+	}
+
+	.banner-play-icon a span {
+		right: 30px;
+		font-size: 12px;
+	}
+
+	.section-title .sub-title {
+		font-size: 25px;
+		margin: 0 0 4px;
+	}
+
+	.gallery-images .section-title .title {
+		text-align: center;
+	}
+
+	.section-title .title {
+		font-size: 50px;
+	}
+
+	.gallery-images img {
+		max-width: 830px;
+	}
+
+	.gallery-images::before {
+		bottom: -145px;
+		height: 900px;
+		background-size: contain;
+	}
+
+	.gallery-images {
+		margin: 0 0 -220px;
+	}
+
+	.gallery-nav .slick-arrow {
+		left: 0;
+		top: 50px;
+	}
+
+	.gallery-nav .slick-arrow.slick-next {
+		right: 0;
+		left: auto;
+	}
+
+	.download-content {
+		margin: 0 0 0;
+		text-align: center;
+	}
+
+	.download-btn-wrap {
+		justify-content: center;
+	}
+
+	.download-content .system-req p {
+		margin: 0 auto;
+	}
+
+	.download-img {
+		margin: 0 0 80px;
+	}
+
+	.action-active::before {
+		top: 100px;
+		width: 10%;
+	}
+
+	.download-area {
+		padding: 0 0 150px;
+	}
+
+	.coin-slider-wrap {
+		max-width: 100%;
+		padding: 75px 165px 55px 50px;
+		margin: 0 0 40px;
+	}
+
+	.coin-slider-item p {
+		width: 60%;
+	}
+
+	.coin-img img {
+		max-width: 380px;
+	}
+
+	.coin-img {
+		right: 0;
+		bottom: 0;
+	}
+
+	.coin-img img {
+		max-width: 400px;
+	}
+
+	.coin-slider-item .coin-btn {
+		max-width: 260px;
+	}
+
+	.roadmap-wrapper .container {
+		margin: 0 0 0 80px;
+	}
+
+	.roadmap-message p br {
+		display: none;
+	}
+
+	.tokenomics-area {
+		padding: 165px 0 0;
+	}
+
+	.download-content .desc {
+		margin: 0 auto;
+	}
+
+	.banner-social {
+		right: 6%;
+		top: 25%;
+	}
+
+	.footer-widget-wrap {
+		column-gap: 50px;
+	}
+
+	.coin-area .col-lg-4,
+	.team-area .col-lg-4 {
+		flex: 0 0 auto;
+		width: 25%;
+	}
+	.coin-icon {
+		text-align: center;
+		min-height: 140px;
+	}
+
+	.coin-icon {
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.coin-content {
+		padding: 0 20px 25px;
+	}
+
+	.coin-content .title {
+		font-size: 20px;
+	}
+
+	.coin-content p {
+		font-size: 15px;
+	}
+
+	.coin-img::before {
+		top: -290px;
+		width: 960px;
+		height: 950px;
+		background-size: contain;
+	}
+
+	.coin-img img {
+		max-width: 340px;
+	}
+}
+
+
+@media (max-width:1024px){
+	.join_4_key a {
+		font-size: 16px;
+	}
+
+	.hold500kata h3,
+	.takeru h3,
+	.takesword h3 {
+		font-size: 18px;
+	}
+	.react-player {
+		width: 100%;
+		height: 100%;
+	}
+	.player-wrapper {
+		padding-top: 56.25%;
+		margin-top: 40%;
+	}
+	.download-img {
+		margin-top: 35%;
+	}
+	.download-img img {
+		margin-left: 22%;
+		margin-top: -38%;
+	}
+	.download-img::before {
+		top: -100%;
+	}
+	.parea-bg {
+		height: 270px;
+	}
+	.purchase-item .purchase-btn .btn {
+		width: auto;
+		height: auto;
+	}
+	.crc3 img {
+		margin-left: 1px;
+		margin-top: 68px;
+		width: 8%;
+	}
+	.crc2 img {
+		position: absolute;
+		margin-left: -99px;
+		margin-top: 58px;
+		width: 30%;
+	}
+	.crc1 img {
+		margin-left: -65px;
+		margin-top: 40px;
+		width: 10%;
+	}
+	.wpn3 img {
+		position: absolute;
+		margin-left: -1px;
+		margin-top: 17px;
+		width: 8%;
+	}
+	.wpn2 img {
+		margin-left: -45px;
+		margin-top: 10px;
+		width: 10%;
+	}
+	.wpn1 img {
+		margin-left: -50px;
+		margin-top: 5px;
+		width: 8%;
+	}
+	.pack-content p {
+		font-size: 14px;
+	}
+	.pack-main-content h3 {
+		font-size: 18px;
+	}
+	.pack-main-content {
+		padding: 20px 0 0px 0;
+	}
+	.pack-content {
+		padding: 0 0px 0px 0px;
+	}
+	.coin-item {
+		flex-direction: column;
+	}
+	.social a {
+		font-size: 18px;
+	}
+	.team-content .title {
+		font-size: 24px;
+	}
+	.weapon-bottom-button .banner-btn-wrap div:nth-child(2) .btn {
+		padding: 0;
+	}
+	.nft-slider .nft-item {
+		width: 320px;
+	}
+	.coin_img img {
+		width: 54%;
+		position: absolute;
+		margin-top: 5px;
+		margin-left: -50px;
+		z-index: 0;
+	}
+	.coin_desc::before {
+		display: none;
+	}
+	.coin-area .section-title {
+		margin: 0 0 80px;
+	}
+	.character-image {
+		width: 65%;
+		margin-left: 135px;
+	}
+	.parallax-area {
+		height: 68vh;
+	}
+	.banner-bg video {
+		width: 100%;
+		transform: translate(-50%, -50%);
+		position: absolute;
+		top: 50%;
+		left: 50%;
+	}
+
+	.banner-wrap {
+		position: relative;
+			padding: 0px 0;
+			min-height: 280px;
+	}
+	.download-img .about-video {
+		position: absolute;
+			top: -10%;
+			left: 0.5%;
+			height: 392px;
+			width: 100%;
+	}
+	.about_video iframe {
+		width: 100%;
+	}
+	.dimond-slider .slick-dots {
+		top: 44%;
+		left: 65px;
+	}
+	.banner-play-icon {
+		bottom: 60px;
+	}
+
+	.banner-content .btn {
+
+		padding: 14px 20px;
+		width: 160px;
+		height: 45px;
+	}
+
+	.player-name {
+		bottom: 25%;
+	}
+
+	.about-content span {
+		left: -34%!important;
+	}
+	.about-content {
+
+		text-align: center;
+	}
+	.about-content h3 {
+
+		margin-bottom: 25px;
+	}
+
+	.about-content p {
+
+		font-size: 13px;
+
+	}
+	.team-thumbnail img {
+		top: -18px!important;
+	}
+
+	.team-card:hover .team-thumbnail img {
+		top: -37px!important;
+	}
+
+	.team-area .col-lg-4 {
+
+		width: 32%;
+	}
+
+	.advisor-area .team-thumbnail img {
+		top: 3px!important;
+	}
+
+	.advisor-area .team-card:hover .team-thumbnail img {
+		top: -17px!important;
+	}
+
+	.team-area {
+
+		padding-top: 170px;
+
+	}
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 991.98px) {
+.purchase-item .title {
+		word-break: break-all;
+	}
+	.banner-img {
+
+		height: 10vh;
+	}
+
+	/* .banner-btn-wrap .btn {
+		width: 150px!important;
+	} */
+
+	.banner-area .banner-content::after {
+
+		width: 100%;
+		height: 100%;
+
+	}
+
+
+	.coin-area .col-lg-4,
+	.team-area .col-lg-4 {
+		flex: 0 0 auto;
+		width: 50%;
+	}
+	.custom-container {
+		max-width: 720px;
+	}
+
+	.main-header {
+		padding: 25px 0;
+	}
+
+	.menu-nav {
+		justify-content: space-between;
+	}
+
+	.header-action {
+		margin-right: 40px;
+	}
+
+	.header-shop-cart .minicart {
+		top: 51px;
+	}
+
+	.menu-outer .navbar-wrap {
+		display: block !important;
+	}
+
+	.menu-area .mobile-nav-toggler {
+		display: block;
+	}
+
+	.banner-content {
+		margin: 40px 0 50px 0;
+	}
+
+	.menu-area .mobile-nav-toggler {
+		color: #fff;
+		margin-top: 25px;
+	}
+
+	.banner-social {
+		top: 35%;
+	}
+
+	.gallery-images img {
+		max-width: 100%;
+	}
+
+	.gallery-images::before {
+		bottom: 7%;
+		height: 500px;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.gallery-nav .slick-arrow img,
+	.gallery-active .slick-arrow img {
+		max-width: 20px;
+	}
+
+	.gallery-thumb .popup-video {
+		width: 80px;
+		height: 80px;
+	}
+
+	.gallery-images {
+		margin: 0 0 -175px;
+	}
+
+	.action-content p {
+		font-size: 20px;
+	}
+
+	.coin-area .section-title {
+		margin: 0 0 70px;
+	}
+
+	.coin-img {
+		right: 0;
+		bottom: 0;
+		position: relative;
+		display: block;
+		text-align: center;
+	}
+
+	.coin-slider-wrap {
+		max-width: 100%;
+		padding: 75px 50px 55px;
+		margin: 0 0 40px;
+	}
+
+	.coin-slider-item p {
+		width: 100%;
+	}
+
+	.coin-slider-active .owl-dots {
+		margin: 50px 0 50px;
+		justify-content: flex-start;
+	}
+
+	.coin-content {
+		padding: 0 35px 35px;
+	}
+
+	.coin-content .title {
+		font-size: 26px;
+	}
+
+	.roadmap-wrapper::after {
+		width: 55%;
+		height: 500px;
+	}
+
+	.roadmap-wrapper::after {
+		width: 100%;
+		height: 610px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+
+	.banner-img {
+		margin: 0 0;
+	}
+
+	.paroller {
+		transform: unset !important;
+	}
+
+	.banner-social {
+		top: 55%;
+	}
+
+	.footer-widget-wrap {
+		column-gap: 100px;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.cart-img img {
+		max-width: 100%;
+	}
+
+	.footer-logo-wrap::after {
+		width: 70%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	.cart-wrap {
+		padding: 380px 0 0;
+	}
+
+	.cart-img {
+		width: 100%;
+	}
+
+	.cart-form {
+		border-radius: 40px;
+		padding: 60px 40px;
+	}
+
+	.banner-content-2 .title {
+		font-size: 60px!important;
+		margin-bottom: 10px!important;
+	}
+
+	.weapons-slider .slick-active .weapon-thumb model-viewer {
+
+		width: 250px;
+
+	}
+
+
+	.gallery-active .slick-arrow {
+		top: 40%;
+
+	}
+
+	.action-active .slick-arrow{
+		top: 30%;
+	}
+
+	.gallery-nav .slick-arrow {
+		top: 65px;
+	}
+
+	.cascade-slider_container {
+
+		width: 690px;
+	}
+
+	.cascade-slider_item.now model-viewer {
+		width: 614px;
+	}
+
+	.cascade-slider_item.now {
+		transform: translateY(-50%) translateX(-50%) scale(1);
+	}
+
+	.cascade-slider_arrow.cascade-slider_arrow-left {
+		left: 0%;
+	}
+
+	.cascade-slider_arrow.cascade-slider_arrow-right {
+		right: 0;
+	}
+
+	.cascade-slider_item.prev {
+
+		transform: translateY(-50%) translateX(-2%) scale(0.6);
+
+	}
+
+	.cascade-slider_item.next {
+
+		transform: translateY(-50%) translateX(-98%) scale(0.6);
+
+	}
+
+	.cascade-slider_arrow.cascade-slider_arrow-left {
+		left: -5%;
+	}
+
+	.cascade-slider_arrow.cascade-slider_arrow-right {
+		right: -5%;
+	}
+
+	.coin-img::before {
+		top: -200px;
+		width: 795px;
+		height: 900px;
+		left: 44%;
+	}
+
+
+	.team-thumbnail img {
+		top: -146px!important;
+	}
+
+	.team-card:hover .team-thumbnail img {
+		top: -165px!important;
+	}
+
+	.team-area {
+
+		padding-bottom: 0;
+	}
+
+	.team-card {
+
+		margin-bottom: 150px!important;
+
+	}
+
+	.advisor-area .team-thumbnail img {
+		top: -50px!important;
+	}
+
+	.advisor-area .team-card:hover .team-thumbnail img {
+		top: -69px!important;
+	}
+
+	.about-content span {
+		left: -38%!important;
+	}
+
+	/* .banner-btn-wrap .btn {
+
+		width: 145px!important;
+	} */
+
+	.banner-btn-wrap.justify-content-start {
+		justify-content: center!important;
+	}
+}
+@media only screen and (max-width:912px) {
+	.server_open,
+	.need_key {
+		justify-content: center;
+	}
+
+	.join_4_key,
+	.dont_worry,
+	.hold_key,
+	.hold500kata,
+	.takeru,
+	.takesword,
+	.hero_list {
+		width: 100%;
+	}
+
+	.takeru::after {
+		right: 0%;
+	}
+
+	.takeru {
+		padding: 22px;
+	}
+
+	.takesword::after {
+		width: 20%;
+		right: 0;
+	}
+
+
+
+
+
+	.pack-right,
+	.pack-left {
+		float: none;
+	}
+	.download-img {
+		margin-top: 35%;
+	}
+	.pack-right {
+		margin-bottom: 115px;
+	}
+	.about-video iframe {
+		width: 100%;
+		margin-left: 7%;
+		margin-top: -230px;
+	}
+	.download-img img {
+		width: 70%;
+		margin-left: 10%;
+	}
+	.download-area {
+		padding: 0 0 0px;
+	}
+	.action-thumb iframe {
+		width: 80%;
+		height: 80%;
+	}
+	.action-area {
+		padding-bottom: 20px;
+	}
+	.character-area {
+		padding-bottom: 300px;
+	}
+	.coin-item {
+		padding: 5px 0 10px 10px;
+		flex-direction: column;
+	}
+
+	.coin-content {
+		padding: 0;
+	}
+
+	.coin-content .title {
+		font-size: 18px;
+	}
+
+	.coin-content p {
+		font-size: 12px;
+	}
+
+	.coin_img img {
+		width: 50%;
+		margin-top: 220px;
+		margin-right: 10px;
+		right: 0;
+	}
+	.annaounce img {
+		width: 25%;
+	}
+	.weapon-bottom-button .banner-btn-wrap div:nth-child(2) .btn {
+		padding: 0;
+	}
+	.parallax-area {
+		height: 40vh;
+	}
+	.banner-bg video {
+		width: 110vh;
+		transform: translate(-50%, -50%);
+		position: absolute;
+		top: 48%;
+		left: 50%;
+		}
+
+	.banner-wrap {
+		position: relative;
+		padding: 135px 0;
+	}
+	.download-img .about-video {
+		position: absolute;
+			top: 40%;
+			left: 0.5%;
+			height: 404px;
+			width: 85.6%;
+	}
+}
+@media only screen and (max-width:820px) {
+	.server_open,
+	.need_key {
+		justify-content: center;
+	}
+	.join_4_key,
+	.dont_worry,
+	.hold_key,
+	.hold500kata,
+	.takeru,
+	.takesword,
+	.hero_list{
+		width: 100%;
+	}
+	.takeru::after {
+		right: 0%;
+	}
+	.takeru {
+		padding: 22px;
+	}
+	.takesword::after {
+		width: 20%;
+		right: 0;
+	}
+
+	.download-area {
+		padding: 0 0 150px;
+	}
+	.download-img {
+		margin-top: 35%;
+	}
+	.about-video iframe {
+		width: 85%;
+		margin-left: 10%;
+		margin-top: -210px;
+	}
+
+	.download-img img {
+		width: 65%;
+		margin-left: 15%;
+	}
+	.pack-right,
+	.pack-left {
+		float: none;
+	}
+	.pack-right {
+		margin-bottom: 115px;
+	}
+	.parea-bg {
+		width: 80%;
+	}
+	.coin-item {
+		padding: 5px 0 10px 10px;
+		flex-direction: column;
+	}
+	.coin-content {
+		padding: 0;
+	}
+	.coin-content .title {
+		font-size: 18px;
+	}
+	.coin-content p {
+		font-size: 12px;
+	}
+	.coin_img img {
+		width: 50%;
+		margin-top: 256px;
+		margin-right: 15px;
+		right: 0;
+	}
+	.parallax-area {
+		height: 42vh;
+	}
+	.pack_area {
+		margin-top: 75px;
+	}
+	.react-parallax-bgimage{
+		min-height: 50vh!important;
+	}
+	.download-img .about-video {
+		position: absolute;
+		top: 40%;
+		left: 0.6%;
+		height: 403.5px;
+		width: 95.5%;
+	}
+	.banner-smoke {
+
+		bottom: 70px;
+
+	}
+	.about-content span {
+		position: unset!important;
+
+	}
+
+	.about-content {
+
+		margin-bottom: 50px;
+	}
+	.about-section .col-md-6 {
+		flex: 0 0 auto;
+		width: 100%;
+	}
+	.weapons-slider .slick-active .weapon-thumb model-viewer {
+
+		width: 250px;
+
+	}
+
+	.gallery-active .slick-arrow {
+		top: 40%;
+
+	}
+
+	.action-active .slick-arrow{
+		top: 30%;
+	}
+
+	.gallery-nav .slick-arrow {
+		top: 65px;
+	}
+
+	.cascade-slider_container {
+
+		width: 690px;
+	}
+
+	.cascade-slider_item.now model-viewer {
+		width: 614px;
+	}
+
+	.cascade-slider_item.now {
+		transform: translateY(-50%) translateX(-50%) scale(1);
+	}
+
+	.cascade-slider_arrow.cascade-slider_arrow-left {
+		left: 0%;
+	}
+
+	.cascade-slider_arrow.cascade-slider_arrow-right {
+		right: 0;
+	}
+
+	.team-thumbnail img {
+		top: -101px!important;
+	}
+
+	.team-card:hover .team-thumbnail img {
+		top: -120px!important;
+	}
+
+	.banner-social {
+		top: 55%!important;
+	}
+
+	.banner-area .banner-content::after {
+
+		top: 28%;
+
+	}
+
+	/* .banner-btn-wrap .btn {
+		width: 150px!important;
+	} */
+
+	.banner-play-icon {
+		bottom: 15px;
+	}
+
+	.buy-oct-now {
+		bottom: 20px;
+	}
+
+	.player-name {
+		bottom: 13%;
+	}
+
+	.main-slider .slick-arrow {
+		bottom: 20px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (max-width: 768px) {
+	.weapon-bottom-button .banner-btn-wrap div:nth-child(2) .btn {
+		padding: 0;
+	}
+	.team-content .title {
+		font-size: 24px;
+	}
+	.team-thumb-wrap .social a i {
+		font-size: 18px;
+	}
+	.annaounce img {
+		width: 25%;
+	}
+	.parallax-area {
+		height: 55vh;
+	}
+	.header-action .header-btn .btn{
+		background: transparent;
+	}
+	.react-parallax-bgimage {
+			min-height: 58vh !important;
+		}
+	.purchase-btn .btn {
+		font-family: 'grinddemolished';
+		font-weight: normal;
+		font-size: 10px;
+		padding: 10px;
+		height: auto!important;
+	}
+		.purchase-item .title {
+			word-break: break-all;
+		}
+	.banner-bg video {
+		width: 150vh;
+		transform: translate(-50%, -50%);
+		position: absolute;
+		top: 48%;
+		left: 50%;
+	}
+
+	.banner-wrap {
+		position: relative;
+		padding: 120px 0;
+		min-height: 615px;
+	}
+	.download-img .about-video {
+	position: absolute;
+	top: 40%;
+	left: 0.5%;
+	height: 390px;
+	width: 98.9%;
+}
+	.player-name {
+
+		bottom: 13%;
+
+	}
+
+	.main-slider .slick-arrow {
+		bottom: 20px;
+	}
+
+	.banner-social {
+		top: 24%!important;
+	}
+
+	.team-thumbnail img {
+		top: -74px!important;
+	}
+
+	.team-card:hover .team-thumbnail img {
+		top: -94px!important;
+	}
+
+	.cascade-slider_item.next model-viewer,
+	.cascade-slider_item.prev model-viewer {
+		width: 500px;
+		height: 500px;
+		margin: 0 auto;
+	}
+
+	.cascade-slider_item.now model-viewer {
+		width: 830px;
+		height: 800px;
+		margin: 0 auto;
+	}
+
+	.cascade-slider_container {
+		width: 535px !important;
+	}
+
+	.cascade-slider-nav .contexts .text h2 {
+		font-size: 55px !important;
+	}
+
+	.cascade-slider-nav .contexts .text p {
+		font-size: 16px !important;
+		padding: 0 50px;
+	}
+
+	.cascade-slider_item.now {
+		top: 58%;
+		left: 50%;
+		transform: translateY(-50%) translateX(-48%) scale(0.9);
+		opacity: 1;
+		z-index: 5;
+	}
+
+	.cascade-slider_item.next {
+		transform: translateY(-50%) translateX(-100%) scale(0.6);
+	}
+
+	.cascade-slider_item.prev {
+		transform: translateY(-50%) translateX(8%) scale(0.6);
+	}
+
+	.eco-slider .eco-item .nfts-contents {
+		text-align: center;
+	}
+
+	.eco-slider .eco-item ul {
+		justify-content: center;
+	}
+
+	.nft-slider .nft-item.active {
+		transform: translateX(50%) translateY(0%);
+	}
+
+	.nft-slider .nft-item.prev {
+		transform: translateX(-5%) translateY(-30%) scale(0.6);
+	}
+
+	.nft-slider .nft-item.next {
+		transform: translateX(100%) translateY(40%) scale(0.6);
+	}
+
+	.team-card {
+		margin-bottom: 80px!important;
+	}
+	.action-active .slick-arrow{
+		position: absolute;
+		top: 33%;
+		left: 50px;
+		transform: translateY(-50%);
+		background: transparent;
+		border: none;
+		padding: 0;
+		width: auto;
+		z-index: 3;
+	}
+
+	.action-active .slick-arrow.slick-next{
+		left: auto;
+		right: 50px;
+	}
+
+	.eco-slider .eco-item .nfts-contents {
+		text-align: left;
+		margin-top: 100px;
+	}
+
+	.weapons-slider .slick-active .weapon-thumb model-viewer {
+
+		width: 220px;
+
+	}
+
+	.ecosystem-two {
+		padding-top: 200px;
+	}
+
+	.banner-content-2 .title {
+		font-size: 53px!important;
+		margin-bottom: 10px!important;
+	}
+
+	.banner-content-2 .sub-title {
+		font-size: 24px!important;
+		text-align: end!important;
+	}
+
+	p.banner-long-text {
+		display: none;
+	}
+
+	p.banner-short-text{
+		font-size: 20px!important;
+	}
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 767.98px) {
+	.purchase-area .section-title .title {
+			font-size: 38px;
+		}
+	.banner-bg video {
+		width: 150vh;
+		transform: translate(-50%, -50%);
+		position: absolute;
+		top: 48%;
+		left: 50%;
+	}
+	.banner-wrap {
+		position: relative;
+		padding: 120px 0;
+		min-height: 615px;
+	}
+	.custom-container {
+		max-width: 100%;
+	}
+
+	.transparent-header {
+		top: 0;
+	}
+
+	.header-action {
+		margin-right: 30px;
+	}
+
+	.header-action>ul li {
+		margin-left: 0;
+	}
+
+	.header-action>ul li.header-lang {
+		display: none;
+	}
+
+	.banner-content {
+		margin: 0 0 50px 0;
+	}
+
+	.banner-content .title {
+		letter-spacing: 4px;
+		font-size: 16px;
+	}
+
+	.buy-oct-now {
+		left: auto;
+		right: 0;
+		transform: unset;
+		bottom: 30px;
+	}
+
+	.buy-oct-now a {
+		font-size: 14px;
+	}
+
+	.banner-play-icon img {
+		max-width: 160px;
+	}
+
+	.banner-play-icon a span {
+		right: 25px;
+		font-size: 10px;
+	}
+
+	.banner-btn-wrap {
+		gap: 15px;
+	}
+
+	.sticky-menu .header-action .header-btn .btn,
+	.header-action .header-btn .btn,
+	.banner-btn-wrap div:nth-child(2) .btn,
+	.banner-content .btn {
+		border-radius: 10px;
+		font-size: 12px;
+		padding: 10px 19px;
+	}
+
+	.sticky-menu.menu-area .mobile-nav-toggler {
+		margin-top: 20px;
+	}
+
+	.brand-active .col {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.brand-item {
+		min-height: 40px;
+	}
+
+	.brand-item img {
+		max-height: 40px;
+	}
+
+	.gallery-images {
+		margin: 0 0 -110px;
+	}
+
+	.gallery-images .section-title {
+		position: unset;
+		left: 0px;
+		right: 0px;
+		top: 50px;
+		z-index: 2;
+		max-width: 100%;
+		margin: 0 auto;
+		text-align: center !important;
+	}
+
+	.gallery-images::after,
+	.gallery-images::before {
+		display: none;
+	}
+
+	.section-title .title {
+		font-size: 38px;
+	}
+
+	.gallery-thumb .popup-video {
+		width: 50px;
+		height: 50px;
+		font-size: 15px;
+	}
+
+	.gallery-content .title {
+		font-size: 26px;
+	}
+
+	.gallery-thumb {
+		margin: 0 0 20px;
+	}
+
+
+	/* .download-content .download-now {
+		font-size: 34px;
+	} */
+
+	.download-content .download-now span img {
+		max-width: 345px;
+	}
+
+	.download-content .system-req p {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.download-btn-wrap {
+		gap: 0 15px;
+	}
+
+	.section-title.text-center.mb-180 {
+		margin: 0 0 50px;
+	}
+
+	.action-content .title {
+		font-size: 30px;
+	}
+
+	.action-active .slick-slide .action-item {
+		margin: 0 0 0;
+		transform: scale(1);
+		filter: grayscale(0);
+	}
+
+	.action-area .container-fluid.p-0.fix {
+		padding: 0 15px !important;
+	}
+
+	.action-active::before,
+	.action-active::after {
+		display: none;
+	}
+
+	.action-content p {
+		font-size: 18px;
+		max-width: 100%;
+	}
+
+	.coin-slider-wrap {
+		max-width: 100%;
+		padding: 50px 30px 55px;
+	}
+
+	.coin-slider-item .title {
+		font-size: 48px;
+		margin: 0 0 20px;
+	}
+
+	.coin-slider-item p {
+		font-size: 20px;
+	}
+
+	.coin-slider-item .coin-btn {
+		max-width: 220px;
+	}
+
+	.coin-img img {
+		max-width: 100%;
+	}
+
+	.coin-img::before {
+		left: 50%;
+		transform: translate(-50%, -50%);
+		top: 50%;
+		width: 200%;
+		height: 465px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+	}
+
+	.roadmap-area .section-title .title {
+		font-size: 38px;
+	}
+
+	.roadmap-wrapper .container {
+		margin: 0 0 0 35px;
+	}
+
+	.roadmap-wrapper::after {
+		display: none;
+	}
+
+	.tokenomics-check-area {
+		display: block;
+		max-width: 900px;
+		margin: 0 auto 85px;
+		padding: 0 0;
+		padding: 18px 30px;
+		text-align: center;
+	}
+
+	.tokenomics-check-area p br {
+		display: none;
+	}
+
+	.tokenomics-btn {
+		display: inline-block;
+		margin-top: 15px;
+	}
+
+	.tokenomics-img-shadow {
+		left: 13%;
+		bottom: -40px;
+	}
+
+	.scroll-top {
+		right: 15px;
+	}
+
+	.scroll-top.open {
+		bottom: 20px;
+	}
+
+	.section-title p {
+		font-size: 16px;
+	}
+
+	.gallery-nav-item img {
+		width: 100%;
+	}
+
+	.tokenomics-img {
+		max-width: 350px;
+	}
+
+	.banner-social ul a {
+		font-size: 20px;
+	}
+
+	.banner-social ul {
+		row-gap: 20px;
+	}
+
+	.footer-widget-wrap {
+		column-gap: 50px;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.cart-wrap {
+		padding: 57% 0 0;
+	}
+
+	.cart-form {
+		border-radius: 20px;
+		padding: 50px 25px;
+	}
+
+	.cart-form .title {
+		font-size: 28px;
+		margin: 0 0 30px;
+	}
+
+	.cart-form ul li {
+		padding-bottom: 25px;
+		margin-bottom: 25px;
+		font-size: 16px;
+	}
+
+	.cart-form ul li.total-sum>span {
+		font-size: 20px;
+	}
+
+	.cart-form ul li .play-btn {
+		height: auto;
+		min-height: 52px;
+		padding: 11px 30px;
+		line-height: 1.3;
+	}
+
+	.cart-form ul li.payment-option .play-grp select {
+		padding: 8px 30px;
+		width: 165px;
+		height: 52px;
+		font-size: 16px;
+	}
+
+	.cart-form ul li .or {
+		top: -39px;
+		padding: 0 20px;
+		font-size: 16px;
+	}
+
+	.cart-form-bottom {
+		font-size: 16px;
+	}
+
+	.cart-area {
+		padding: 90px 0 125px;
+	}
+
+	.team-card {
+		margin-bottom: 80px;
+	}
+
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+
+	.custom-container {
+		max-width: 540px;
+	}
+
+	.gallery-items {
+		transform: scale(1);
+	}
+
+	.section-title .title {
+		font-size: 46px;
+	}
+
+	.banner-social ul a {
+		font-size: 30px;
+	}
+
+	.team-card {
+		margin-bottom: 80px;
+	}
+
+
+
+}
+
+
+
+@media only screen and (max-width:540px) {
+	.pack-btn-wrap {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.pack-btn-wrap .btn {
+		margin-bottom: 15px;
+	}
+	.any_issues ul {
+			flex-direction: column;
+		}
+	.download-area {
+		padding: 0;
+	}
+	.download-img::before {
+		top: -100%;
+		width: 100%;
+		height: 100%;
+	}
+	.download-btn-wrap .btn {
+		padding: 23px 6px;
+		border-radius: 10px;
+		border: 1px solid #b3a9a9;
+		font-size: 14px;
+	}
+	.parea-bg {
+			width: 100%;
+		}
+	.coin-icon img {
+		width: 35%;
+	}
+	.pack-right {
+		margin-bottom: 50px;
+	}
+	.pack-img {
+		display: none;
+	}
+	.about-video iframe {
+		width: 100%;
+		margin-left: 0%;
+		margin-top: -15px;
+		height: 100%;
+	}
+	.action-thumb iframe {
+		width: 100%;
+		height: 100%;
+	}
+	.action-area {
+		padding-top: 160px;
+	}
+	.parallax-area {
+		height: 55vh;
+	}
+	.parallax-content {
+		padding-bottom: 2%;
+	}
+	.character-image {
+		width: 75%;
+		margin-left: 50px;
+	}
+	.banner-btn-wrap .btn {
+		margin: 0;
+		font-size: 13px;
+		width: 148px;
+		height: 45px;
+	}
+	.download-img .about-video {
+		position: absolute;
+		top: 40%;
+		left: 1%;
+		height: 269px;
+		width: 98%;
+	}
+	.banner-content {
+		margin: 0 60px 80px 60px;
+	}
+
+	.banner-smoke {
+		bottom: 220px;
+	}
+
+	.banner-play-icon {
+
+		left: 10%;
+	}
+
+	.banner-social {
+		top: 30%!important;
+	}
+
+	.buy-oct-now {
+		left: auto;
+		right: 40%;
+
+		bottom: 20px;
+	}
+
+	.player-name {
+		bottom: 20%;
+		right: 10%;
+	}
+
+	.main-slider .slick-arrow.slick-prev {
+		right: 90px !important;
+	}
+
+	.main-slider .slick-arrow {
+		bottom: 40px;
+	}
+
+	.main-slider .slick-arrow.slick-next {
+		right: 47px!important;
+	}
+
+	.banner-area .banner-content::after {
+		top: 40%;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+
+	.server_open {
+		display: block;
+	}
+	.server_time ul {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 18px;
+	}
+	.key_content h2 {
+		width: 100%;
+		font-size: 22px;
+	}
+	.join_4_key {
+		text-align: left;
+		width: 100%;
+	}
+	.join_4_key a {
+		font-size: 13px;
+	}
+	.takeru h3 {
+		text-align: left;
+	}
+	.dont_worry,
+	.hold_key,
+	.hold500kata,
+	.takeru,
+	.takesword{
+		width: 100%;
+		font-size: 15px;
+	}
+	.hold500kata h3,
+	.takeru h3,
+	.takesword h3 {
+		font-size: 18px;
+	}
+	.hold500kata::after {
+		right: 10%;
+	}
+	.buy_here p{
+		right: 0%;
+	}
+	.takesword::after {
+		width: 25%;
+		right: 0%;
+	}
+	.takeru::after {
+		right: 0%;
+		width: 45%;
+	}
+	.hero_list{
+		width: 100%;
+	}
+	.download-img::before {
+		top: -100%;
+		width: 400px;
+		height: 300px;
+	}
+	.parea-bg {
+		width: 100%;
+	}
+	.download-img{
+		margin-top: 45%;
+	}
+	.about-video iframe {
+		width: 100%;
+		height: 100%;
+	}
+	.pack_area {
+		margin-top: -10px;
+	}
+	.pack-right,
+	.pack-left{
+		float: none;
+	}
+	.parea-bg {
+		margin-bottom: 30px;
+	}
+	.pack-img {
+		display: none;
+	}
+	.parallax-area {
+		height: 50vh;
+	}
+	.coin_img img {
+		display: none;
+	}
+	.character-image {
+		width: 100%;
+		margin-left: 0px;
+	}
+	.react-parallax-content {
+		padding: 90px 0 0px;
+	}
+	.parallax-content {
+		padding: 0 15% 5% 15%;
+	}
+	.banner-btn-wrap .btn {
+		height: 46px;
+		font-size: 12px;
+	}
+	.parallax-logo {
+		width: 75%;
+	}
+	.action-thumb {
+			/* margin: 0 0 35px; */
+			height: 280px;
+		}
+	.download-img .about-video {
+		position: absolute;
+		top: 40%;
+		left: 1%;
+		height: 203px;
+		width: 98%;
+	}
+	.dimond-slider .slick-dots {
+		top: 35%;
+		left: 45px;
+	}
+	.banner-smoke {
+		bottom: -20px;
+	}
+
+	.banner-play-icon {
+		left: 0;
+	}
+
+	.buy-oct-now {
+		right: 106px;
+		bottom: -1px;
+	}
+
+	.main-slider .slick-arrow.slick-prev {
+		right: 40px !important;
+	}
+
+	.main-slider .slick-arrow.slick-next {
+		right: 12px!important;
+	}
+
+	.main-slider .slick-arrow {
+		bottom: 25px;
+	}
+
+	.player-name {
+		bottom: 15%;
+		right: 0;
+	}
+
+	.banner-area .banner-content::after {
+		top: 75%;
+		left: 57%;
+	}
+
+	.banner-bg video {
+		width: 130vh;
+		transform: translate(-50%, -50%);
+		position: absolute;
+		top: 50%;
+		left: 50%;
+	}
+	.banner-wrap {
+		position: relative;
+		padding: 10px 0;
+		min-height: 370px;
+	}
+	.buy-oct-now {
+		right: 110px!important;
+	}
+	.coin-area .col-lg-4,
+	.team-area .col-lg-4 {
+		flex: 0 0 auto;
+		width: 100%;
+	}
+	.team-card {
+		margin-bottom: 80px;
+	}
+	.cascade-slider_container {
+		width: 350px !important;
+	}
+
+	.cascade-slider_item.now model-viewer {
+		width: 325px;
+		height: 550px;
+	}
+
+	.cascade-slider_item::before {
+		width: 950px;
+		height: 870px;
+	}
+
+	.cascade-slider-nav .contents-inner .text {
+		width: 350px;
+	}
+
+	.cascade-slider-nav .contexts .text h2 {
+		font-size: 23px !important;
+	}
+
+	.cascade-slider-nav .contexts .text p {
+		font-size: 12px !important;
+		padding: 0px 25px;
+	}
+
+	.cascade-slider_slides {
+		height: 470px;
+	}
+
+	.cascade-slider_item.now {
+		top: 45%;
+	}
+
+	.character-area {
+		padding-bottom: 260px;
+	}
+
+	.eco-slider .eco-item .nfts-contents {
+		margin-top: 50px;
+		text-align: left;
+		padding: 0 25px;
+	}
+
+	.nfts-contents h2 {
+		font-size: 22px;
+	}
+
+
+	.nfts-contents p {
+		font-size: 16px;
+		color: #a9a9a9;
+		line-height: 1.5rem;
+		margin: 15px 0;
+	}
+
+	.nfts-contents .read-more {
+		margin: 0 auto;
+	}
+
+	.nfts-contents ul {
+		flex-wrap: wrap;
+	}
+
+	.weapons-slider {
+		height: 450px;
+	}
+
+	.nfts-contents ul li {
+		margin-bottom: 10px;
+	}
+
+	.nft-slider .nft-item {
+		width: 180px;
+	}
+
+	.ecosystem-two .slider-nft {
+
+		height: 275px;
+	}
+
+	.nft-dots {
+		display: none;
+	}
+
+	.dimond-slide .text {
+		/* margin-top: 45px; */
+		margin-top: 0;
+	}
+
+	.dimond-img {
+		display: none;
+	}
+
+	.nft-slider {
+		height: 200px;
+	}
+
+	.roadmap-area {
+		padding: 60px 0 0;
+	}
+
+	.buy-oct-now {
+		right: 25px;
+	}
+
+	.banner-wrap {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.action-area {
+		padding: 0 0 170px;
+	}
+
+	.coin-area {
+		padding-bottom: 70px;
+	}
+
+	.section-title .title {
+		font-size: 32px;
+		margin-top: 10px;
+	}
+
+	.section-title .sub-title {
+		font-size: 16px;
+	}
+
+	.weapons-slider .slick-active .weapon-thumb model-viewer {
+		width: 355px;
+		height: 500px;
+	}
+
+	.cascade-slider_arrow.cascade-slider_arrow-left{
+		left: -3%;
+	}
+
+	.cascade-slider_arrow.cascade-slider_arrow-right{
+		right: -3%;
+	}
+
+	.coin-img {
+		width: 65%;
+		margin: 0 auto;
+	}
+
+	.scroll-top.open {
+		display: none;
+	}
+
+	.cascade-slider_item::before {
+		width: 690px!important;
+		height: 420px!important;
+	}
+
+	.about-content span {
+		left: 0!important;
+		margin-bottom: 10px!important;
+		display: inline-block;
+		position: unset!important;
+		transform: rotate(0)!important;
+	}
+
+	.about-content p {
+		line-height: 1.5rem!important;
+	}
+
+	.about-content h3 {
+		margin-bottom: 15px!important;
+		font-size: 20px!important;
+	}
+
+	.about-content {
+		text-align: center;
+	}
+
+	.about-section{
+		margin-top: 50px!important;
+	}
+
+	.about-area{
+		padding: 180px 0!important;
+	}
+
+	.banner-content-2 .title {
+		font-size: 30px!important;
+		margin-bottom: 0px!important;
+		letter-spacing: 0!important;
+	}
+
+	.banner-content-2 .sub-title {
+		font-size: 20px!important;
+		text-align: center!important;
+		letter-spacing: 14px!important;
+		line-height: 32px;
+	}
+
+	p.banner-long-text {
+		display: none;
+	}
+
+	p.banner-short-text{
+		font-size: 20px!important;
+	}
+
+	.banner-btn-wrap {
+		gap: 5px;
+	}
+
+	.gallery-nav-wrap {
+		display: none;
+	}
+
+	.gallery-active .slick-arrow{
+		top: 40%;
+	}
+
+	.download-content .title {
+		font-size: 20px;
+
+	}
+
+	.download-content .desc {
+		font-size: 21px;
+
+	}
+	.annaounce img {
+		border-radius: 0 !important;
+		width: 35%;
+	}
+	.download-content > p {
+		font-size: 20px;
+		color: #fff;
+
+	}
+
+	.download-area,
+	.action-area {
+
+		padding-bottom: 100px;
+	}
+
+	.weapons-area {
+		padding-top: 100px;
+	}
+
+	.ecosystem-two {
+
+		padding-bottom: 170px;
+	}
+
+	.team-thumbnail img {
+		top: -105px!important;
+	}
+
+	.team-card:hover .team-thumbnail img {
+		top: -123px!important;
+	}
+
+	.team-card {
+		margin-bottom: 130px!important;
+	}
+
+	.advisor-area .team-thumbnail img {
+		top: -105px!important;
+	}
+
+	.advisor-area .team-card:hover .team-thumbnail img {
+		top: -124px!important;
+	}
+
+	.s-about-wrap {
+
+		padding-top: 0;
+	}
+
+	.play_content h2 {
+
+		margin-top: 40px;
+		padding-bottom: 10px;
+	}
+}
+@media only screen and (max-width: 412px){
+	.download-img .about-video {
+		position: absolute;
+		top: 40%;
+		left: 0.5%;
+		height: 202px;
+		width: 99%;
+	}
+}
+@media only screen and (max-width: 393px){
+	.download-img .about-video {
+		left: 0.5%;
+			height: 193px;
+			width: 98.8%;
+	}
+}
+
+@media only screen and (max-width: 390px){
+	.download-img .about-video {
+		left: 0.5%;
+		height: 190.5px;
+		width: 98.4%;
+	}
+}
+
+@media (max-width: 375px) {
+	.parallax-content {
+		padding: 0 15% 0% 15%;
+	}
+	.banner-bg {
+		min-height: 500px !important;
+	}
+	.parallax-area {
+		height: 70vh;
+	}
+	.download-img .about-video {
+		height: 183px;
+		width: 98.5%;
+	}
+	.banner-bg video {
+		width: 170vh;
+	}
+}
+@media (max-width: 360px) {
+	.download-img .about-video {
+		height: 175px;
+		width: 98.8%;
+	}
+}

@@ -74,14 +74,14 @@ class Downloads extends React.Component {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://storage.googleapis.com/euphoric-anchor-397613.appspot.com/Katana-inu-Launcher-v3.1.3-signed.exe"
+                    href="https://storage.googleapis.com/euphoric-anchor-397613.appspot.com/Katana-inu-Launcher-v3.1.4-signed.exe"
                   >
                     <img src="assets/img/images/download_btn.png" alt="" />
                   </a>
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://storage.googleapis.com/euphoric-anchor-397613.appspot.com/Katana-inu-Launcher-v3.1.3-signed.exe"
+                    href="https://storage.googleapis.com/euphoric-anchor-397613.appspot.com/Katana-inu-Launcher-v3.1.4-signed.exe"
                   >
                     <img src="assets/img/images/play.png" alt="" />
                   </a>
@@ -89,7 +89,7 @@ class Downloads extends React.Component {
                     className="white"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://storage.googleapis.com/euphoric-anchor-397613.appspot.com/Katana-inu-Launcher-v3.1.3-signed.exe"
+                    href="https://storage.googleapis.com/euphoric-anchor-397613.appspot.com/Katana-inu-Launcher-v3.1.4-signed.exe"
                   >
                     Download Directly
                   </a>

@@ -448,14 +448,14 @@ class Downloads extends React.Component {
                   <h3>REGISTER</h3>
                   <p>REGISTER YOUR ACCOUNT.</p>
                 </li>
-                <li className="align-center">
+                {/* <li className="align-center">
                   <i class="fa-solid fa-wallet"></i>
                   <h3>CONNECT WALLET</h3>
                   <p>
                     CONNECT YOUR WALLET TO CHECK IF YOU HOLD ANY NFTS/TOKENS OR
                     ENTER YOUR ACCESS KEY.
                   </p>
-                </li>
+                </li> */}
                 <li className="align-center">
                   <i class="fa-solid fa-download"></i>
                   <h3>CLICK</h3>
@@ -472,7 +472,7 @@ class Downloads extends React.Component {
                 </li>
                 <li>Click on the download button.</li>
               </ul> */}
-              <p>
+              {/* <p>
                 QA Testers have previously reported issues with extraction. To
                 resolve this problem, follow the next steps:
               </p>
@@ -501,7 +501,7 @@ class Downloads extends React.Component {
                   <span>STEP 6</span>
                   Game will launch and you will need to create a New Account.
                 </li>
-              </ul>
+              </ul> */}
 
               <p className="success">ENJOY PLAYING KATANA INU!</p>
             </div>

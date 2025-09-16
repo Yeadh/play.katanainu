@@ -3927,6 +3927,7 @@ footer {
 .any_issues ul {
   display: flex;
   margin: 30px 0;
+  justify-content: center;
 }
 .any_issues ul li {
   color: #fff;

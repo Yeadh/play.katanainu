@@ -68,7 +68,7 @@ class Downloads extends React.Component {
             <div className="col-md-12">
               <div className="newplay_area">
                 <h4 className="new_title">Play Our</h4>
-                <h4 className="new_title_bold">closed beta now!</h4>
+                <h4 className="new_title_bold">Pre beta now!</h4>
                 <h2 className="download-now">Download Now: </h2>
                 <div className="download-btn-wrap">
                   <a
@@ -126,7 +126,7 @@ class Downloads extends React.Component {
                 <div className="server_open text-center">
                   <div className="server-text">
                     <h4>THE SERVERS ARE ALWAYS OPEN BETWEEN:</h4>
-                    <span>2-4PM & 7-10PM CET</span>
+                    <span>2-10PM CET</span>
                   </div>
                 </div>
                 <div className="server_open text-center mt-20">

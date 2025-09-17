@@ -290,7 +290,7 @@ class Downloads extends React.Component {
               </Modal.Body>
             </Modal>
           </div>
-          <div className="row align-items-end justify-content-center">
+          <div className="row align-items-end justify-content-center d-none">
             <div className="col-xl-6 col-lg-6">
               <div className="download-content">
                 <div className="need_key">
@@ -436,7 +436,71 @@ class Downloads extends React.Component {
               <p>
               If you have encountered any issues during installation, please follow these steps to run the game:
               </p>
+              <ul className="flex-column text-start">
+                <oi><p>1. Please reinstall the Launcher</p></oi>
+                <oi><p>2. Please accept any False Flag with your Antivirus Defender.
+- You can google "False Flag software".</p></oi>
+                <oi><p>3. redownload it again</p></oi>
+                <oi><p>4. If you have still issues please contact us via (best support via Telegram)</p></oi>
+                
+              </ul>
 
+              <ul>
+                <li>
+                  <a target="_blank" rel="norefferer" href="https://t.me/katanainu">
+                    <div class="relative border border-[#848589] flex justify-center items-center">
+                        <div class="flex justify-between items-center w-[102%] h-1 absolute z-20">
+                          <div class="w-2 h-1.5 bg-black"></div>
+                          <div class="w-2 h-1.5 bg-black"></div>
+                        </div>
+                        <button class="justify-center ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 btn2 fadeInLeft border border-[#f5a238] overflow-hidden font-poppins text-center transition-all duration-500 ease-in-out py-2 px-6 rounded-none hover:text-black whitespace-nowrap font-bold m-1 relative z-30 2xl:tracking-wider border-none flex items-center gap-2 md:gap-2.5 xl:gap-3 2xl:px-8 h-7 sm:h-8 lg:h-9 xl:h-10 text-[0.625rem] md:text-xs xl:text-sm bg-white text-black" type="button">
+                          <div class="absolute top-0 left-0 w-1 h-1 z-40 bg-black"></div>
+                          <div class="absolute bottom-0 right-0 w-1 h-1 z-40 bg-black"></div>
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path>
+                          </svg>
+                            Telegram
+                        </button>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                    <a target="_blank" rel="norefferer" class="" href="mailto:support@katanainu.com">
+                      <div class="relative border border-[#848589] flex justify-center items-center">
+                          <div class="flex justify-between items-center w-[102%] h-1 absolute z-20">
+                            <div class="w-2 h-1.5 bg-black"></div>
+                            <div class="w-2 h-1.5 bg-black"></div>
+                          </div>
+                          <button class="justify-center ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 btn2 fadeInLeft border border-[#f5a238] overflow-hidden font-poppins text-center transition-all duration-500 ease-in-out py-2 px-6 rounded-none hover:text-black whitespace-nowrap font-bold m-1 relative z-30 2xl:tracking-wider border-none flex items-center gap-2 md:gap-2.5 xl:gap-3 2xl:px-8 h-7 sm:h-8 lg:h-9 xl:h-10 text-[0.625rem] md:text-xs xl:text-sm bg-white text-black" type="button">
+                            <div class="absolute top-0 left-0 w-1 h-1 z-40 bg-black"></div>
+                            <div class="absolute bottom-0 right-0 w-1 h-1 z-40 bg-black"></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                              <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
+                              <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+                            </svg>
+                            Email: support@katanainu.com
+                          </button>
+                      </div>
+                    </a>
+      </li>
+                <li><a target="_blank" rel="norefferer" href="https://www.discord.gg/katanainu">
+         <div class="relative border border-[#848589] flex justify-center items-center">
+            <div class="flex justify-between items-center w-[102%] h-1 absolute z-20">
+               <div class="w-2 h-1.5 bg-black"></div>
+               <div class="w-2 h-1.5 bg-black"></div>
+            </div>
+            <button class="justify-center ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 btn2 fadeInLeft border border-[#f5a238] overflow-hidden font-poppins text-center transition-all duration-500 ease-in-out py-2 px-6 rounded-none hover:text-black whitespace-nowrap font-bold m-1 relative z-30 2xl:tracking-wider border-none flex items-center gap-2 md:gap-2.5 xl:gap-3 2xl:px-8 h-7 sm:h-8 lg:h-9 xl:h-10 text-[0.625rem] md:text-xs xl:text-sm bg-white text-black" type="button">
+               <div class="absolute top-0 left-0 w-1 h-1 z-40 bg-black"></div>
+               <div class="absolute bottom-0 right-0 w-1 h-1 z-40 bg-black"></div>
+               <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+               </svg>
+                Discord 
+            </button>
+         </div>
+      </a>
+      </li>
+              </ul>
               <ul className="game-step">
                 <li className="align-center">
                   <i class="fa-solid fa-download"></i>
